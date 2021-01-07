@@ -1,0 +1,1 @@
+folder reserved for any server functionality such as a json api for example
