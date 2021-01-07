@@ -8,7 +8,7 @@ To run using the inbuilt development server with hot module reloading (HMR) then
 npm run dev
 ```
 
-Any changes you make to the `./src/client/*.ts` will be recompiled an the browser automatically refreshed with the latest changes.
+Any changes you make to the `./src/client/*.ts` will be recompiled and the browser automatically refreshed with the latest changes.
 
 To build the the final production `bundle.js` then run
 ```
