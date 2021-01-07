@@ -3,6 +3,7 @@ const path = require('path');
 module.exports = {
     mode: 'development',
     entry: './src/client/client.ts',
+    devtool: 'eval-source-map',
     devServer: {
         contentBase: './dist/client',
         hot: true,
@@ -21,7 +22,7 @@ module.exports = {
     },
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, '../../dist/client'),
+        path: path.resolve(__dirname, '../../dist/client')
     },
     performance: {
         hints: false
